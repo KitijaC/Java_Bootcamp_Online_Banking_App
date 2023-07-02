@@ -3,7 +3,6 @@ package service;
 import model.User;
 
 public class OnlineBank {
-
     private User loggedInUser;
 
     public boolean login(User user) {
