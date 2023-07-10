@@ -58,13 +58,13 @@ public class MenuController {
                 case "1":
                     System.out.println("Enter amount to credit: ");
                     double creditAmount = scanner.nextDouble();
-                    scanner.nextLine(); // Consume the newline character
+                    scanner.nextLine();
                     onlineBank.creditUser(loggedInUser, creditAmount);
                     break;
                 case "2":
                     System.out.println("Enter amount to debit: ");
                     double debitAmount = scanner.nextDouble();
-                    scanner.nextLine(); // Consume the newline character
+                    scanner.nextLine();
                     onlineBank.debitUser(loggedInUser, debitAmount);
                     break;
                 case "3":

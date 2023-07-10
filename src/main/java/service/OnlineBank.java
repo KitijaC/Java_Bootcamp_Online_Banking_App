@@ -54,13 +54,4 @@ public class OnlineBank {
         }
     }
 
-//    public void replaceUser(User currentUser, User newUser) {
-//        if (loggedInUser == currentUser) {
-//            loggedInUser = newUser;
-//            System.out.println("The new user is now logged in!");
-//        } else {
-//            System.out.println("User is not logged in.");
-//        }
-//    }
-
 }
